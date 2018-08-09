@@ -17,25 +17,25 @@ app.post('/comments', (req,res)=>{
     req.body._id = comments.length + 1
     console.log(req.body)
     comments.push(req.body)
-    return res.send(comments)
+    return res.send(req.body)
  })
 app.post('/products', (req, res) => {
     req.body._id = products.length + 1
     console.log(req.body)
     products.push(req.body)
-    return res.send(products)
+    return res.send(req.body)
 })
 app.post('/vehicles', (req, res) => {
     req.body._id = vehicles.length + 1
     console.log(req.body)
     vehicles.push(req.body)
-    return res.send(vehicles)
+    return res.send(req.body)
 })
 app.post('/contacts', (req, res) => {
     req.body._id = contacts.length + 1
     console.log(req.body)
     contacts.push(req.body)
-    return res.send(contacts)
+    return res.send(req.body)
 })
 
 
