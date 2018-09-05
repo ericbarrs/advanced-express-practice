@@ -61,3 +61,5 @@ Once completed, the web page should be able to list out the information, create 
 * Data shows in the page for the Lists - 5pts each (20pts)
 * Creating data works - 10pts each (40pts)
 * Can view one item at a time by id - 30pts
+
+is the proxy whats allowing us to send the information to port 3001
