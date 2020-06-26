@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json())
 
 mongoose
-    .connect("mongodb://eric:eric123@ds127362.mlab.com:27362/advance-practice-database")
+    .connect("")
     .then(console.log("db connected"))
     .catch(err=>console.log(err))
 
